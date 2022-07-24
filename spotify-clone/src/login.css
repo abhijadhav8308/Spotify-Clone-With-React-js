@@ -1,0 +1,37 @@
+:root{
+    --white:rgba(255,255,255,0.2);
+}
+
+.login-container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.login-div{
+    background-color: var(--white);
+    border-left: 1px solid var(--white);
+    border-top: 1px solid var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 350px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+}
+
+.login-div .spotify-logo{
+    width:80%;
+}
+
+.login-btn{
+    padding: 15px 30px;
+    background-color: #1FDF64;
+    border-radius: 8px;
+    width: max-content;
+    color: #fff;
+    text-decoration: none;
+}

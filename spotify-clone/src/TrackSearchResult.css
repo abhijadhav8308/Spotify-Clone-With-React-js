@@ -1,0 +1,17 @@
+.search-result{
+    display:flex;
+    overflow-y: auto;
+    margin:10px 0px 0px 50px;
+    cursor:pointer;
+}
+
+.track-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.track-artist{
+    color:rgb(179, 179, 179);
+}

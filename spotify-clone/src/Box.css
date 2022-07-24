@@ -1,0 +1,28 @@
+.box{
+    padding: 2%;
+    width: 120px;
+    height: 150px;
+    background: #181818;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin-right: 3%;
+    overflow:hidden;
+}
+
+.box:hover{
+    background: #282828;
+}
+
+.box .box-image{
+    height: 80%;
+}
+
+.box .box-image img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.box .box-name{
+    margin:10% auto;
+    line-height: 2;
+}

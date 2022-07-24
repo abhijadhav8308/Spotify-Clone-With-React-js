@@ -1,0 +1,24 @@
+.likedsong-container {
+    width: 74vw;
+    overflow-x: hidden;
+    height: calc(100vh - 135px);
+}
+
+.liked-header {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: rgb(81, 58, 159);
+    background: linear-gradient(180deg, rgba(81, 58, 159, 1) 0%, rgba(42, 30, 83, 1) 100%); 
+}
+
+.liked-header img {
+    margin: 5% 2% 2% 2%;
+    width: 15vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.liked-header h1 {
+    font-size: 5em;
+    margin: 5% 0px 0px;
+}

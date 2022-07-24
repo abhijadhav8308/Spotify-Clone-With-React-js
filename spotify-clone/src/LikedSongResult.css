@@ -1,0 +1,55 @@
+.song-result {
+    width: 100%;
+    display: flex;
+    overflow-y: auto;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+
+.flex-div {
+    display: flex;
+}
+
+.song-result:hover {
+    background-color: #2C2B30;
+}
+
+.song-result img {
+    width: 50px;
+}
+
+.song-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.song-name {
+    color: #fff;
+    overflow: hidden;
+    height: 1em;
+}
+
+.song-artist {
+    align-self: flex-start !important;
+}
+
+.albumName{
+    width: 300px;
+    margin:auto 10%;
+}
+
+.indexNo{
+    margin:auto 2%;
+}
+
+.song-artist,
+.albumName,
+.duration,
+.indexNo {
+    align-self: center;
+    color: rgb(179, 179, 179);
+}

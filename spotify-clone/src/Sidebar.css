@@ -1,0 +1,38 @@
+.sticky-container{
+    position:sticky;
+}
+
+.sidebar-container {
+    color: rgb(179, 179, 179);
+    background: #000;
+    width: 20vw;
+}
+
+.sidebar-container a{
+    text-decoration: none;
+}
+
+.sidebar-logo{
+    margin: 5% 15%;
+}
+
+.sidebar-option{
+    color:rgb(179, 179, 179);
+    padding: 8% 15%;
+}
+
+.sidebar-option svg{
+    margin-right: 3%;
+}
+
+.sidebar-option:hover{
+    background-color: #383847;
+    color:#fff;
+    cursor: pointer;
+}
+
+hr{
+    color:rgb(179, 179, 179);
+    opacity: 0.5;
+    margin: 0px 10%;
+}

@@ -1,0 +1,5 @@
+.body-component {
+    display: flex;
+    background: rgb(0, 21, 73);
+    background: linear-gradient(180deg, rgba(0, 21, 73, 1) 0%, rgba(18, 18, 18, 1) 71%);
+}
